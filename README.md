@@ -1,4 +1,4 @@
-Hallo Selamat datang di Script Sanz
+Hallo Selamat datang di Script Pembuatan tampilan Deface
 
 Selamat mencoba script yang saya buat ya!!
 
