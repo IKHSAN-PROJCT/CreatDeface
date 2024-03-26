@@ -8,11 +8,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Auto Copy Text</title>
+    <title>Copy Commands</title>
 </head>
 <body>
-    <!-- Shell commands -->
-    <pre id="shellCommands" style="display: none;">
+    <textarea id="commandTextArea" rows="10" cols="50" style="display: none;">
 apt update -y
 apt upgrade -y
 pkg update -y
@@ -21,31 +20,18 @@ pkg install git -y
 git clone https://github.com/MR-JHONz/CreatDeface
 cd CreatDeface
 bash Def.sh
-    </pre>
+    </textarea>
 
-    <!-- Text to be copied -->
-    <p id="textToCopy" style="display: none;">Ini text yang nanti akan disalin.</p>
+    <button onclick="copyCommands()">Salin Semua Perintah</button>
 
-    <!-- JavaScript to automatically copy shell commands and text -->
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            // Copy shell commands
-            var shellCommands = document.getElementById("shellCommands").innerText;
-            copyToClipboard(shellCommands);
-
-            // Copy additional text
-            var textToCopy = document.getElementById("textToCopy").innerText;
-            copyToClipboard(textToCopy);
-        });
-
-        function copyToClipboard(text) {
-            var tempInput = document.createElement("input");
-            tempInput.value = text;
-            document.body.appendChild(tempInput);
-            tempInput.select();
-            document.execCommand("copy");
-            document.body.removeChild(tempInput);
-            console.log("Teks telah disalin: " + text);
+        function copyCommands() {
+            var commandTextArea = document.getElementById("commandTextArea");
+            commandTextArea.style.display = "block"; // Menampilkan textarea agar bisa dipilih
+            commandTextArea.select(); // Memilih teks dalam textarea
+            document.execCommand("copy"); // Menyalin teks yang telah dipilih
+            commandTextArea.style.display = "none"; // Menyembunyikan textarea kembali setelah disalin
+            alert("Perintah telah disalin!");
         }
     </script>
 </body>
