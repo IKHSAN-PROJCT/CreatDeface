@@ -22,4 +22,4 @@
 
 • Jangan lupa subscribe channel saya
 
-<button><a href="https://yotube.com/@sanzacil_026">Subscribe</a></button>
+<button><a href="https://youtube.com/@sanzacil_026">Subscribe</a></button>
