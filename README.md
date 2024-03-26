@@ -1,25 +1,25 @@
-• Hallo Selamat datang di Script Sanz
+Hallo Selamat datang di Script Sanz
 
-• Selamat mencoba script yang saya buat ya!!
+Selamat mencoba script yang saya buat ya!!
 
-• Jangan Di record...
+Jangan Di record...
 
-• apt update -y
+apt update -y
 
-• apt upgrade -y
+apt upgrade -y
 
-• pkg update -y
+pkg update -y
 
-• pkg upgrade -y 
+pkg upgrade -y 
 
-• pkg install git -y
+pkg install git -y
 
-• git clone https://github.com/MR-JHONz/CreatDeface
+git clone https://github.com/MR-JHONz/CreatDeface
 
-• cd CreatDeface
+cd CreatDeface
 
-• bash Def.sh
+bash Def.sh
 
-• Jangan lupa subscribe channel saya
+Jangan lupa subscribe channel saya
 
 <button><a href="https://youtube.com/@sanzacil_026">Subscribe</a></button>
