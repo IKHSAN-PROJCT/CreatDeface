@@ -11,7 +11,7 @@
     <title>Copy Commands</title>
 </head>
 <body>
-    <textarea id="commandTextArea" rows="10" cols="50" style="display: none;">
+    <textarea id="commandTextArea" rows="10" cols="50">
 apt update -y
 apt upgrade -y
 pkg update -y
@@ -23,17 +23,6 @@ bash Def.sh
     </textarea>
 
     <button onclick="copyCommands()">Salin Semua Perintah</button>
-
-    <script>
-        function copyCommands() {
-            var commandTextArea = document.getElementById("commandTextArea");
-            commandTextArea.style.display = "block"; // Menampilkan textarea agar bisa dipilih
-            commandTextArea.select(); // Memilih teks dalam textarea
-            document.execCommand("copy"); // Menyalin teks yang telah dipilih
-            commandTextArea.style.display = "none"; // Menyembunyikan textarea kembali setelah disalin
-            alert("Perintah telah disalin!");
-        }
-    </script>
 </body>
 </html>
 Jangan lupa subscribe channel saya
