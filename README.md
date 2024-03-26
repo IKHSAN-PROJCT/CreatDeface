@@ -1,4 +1,4 @@
-# Langkah-langkah
+# Script DefacerV2
 
 1. Ikuti langkah-langkah berikut di terminal:
 
